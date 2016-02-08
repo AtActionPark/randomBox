@@ -19,9 +19,9 @@ html, body, div, h1, canvas {
 }
 
 span{
-	position: absolute;
-  top: 65%; left: 50%;
-  transform: translate(-50%,-50%);
+  position:relative;
+  top:45px;
+
   font-size: 70px;
 }
 
