@@ -8,15 +8,23 @@ html, body, div, h1, canvas {
   vertical-align: baseline;
 }
 
+
+
 .block{
 	margin: 10px 10px;
 	width: 100px;
 	height: 100px;
+	line-height:100px;
 	border: 1px solid black;
 	cursor: pointer;
+	text-align: center;
+
 }
 
-.result{
-	margin: 10px 10px;
-}
+
+img {
+	position: relative;
+    top: -95px;
+    opacity: 0.2;
+} 
 

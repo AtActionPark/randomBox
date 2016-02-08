@@ -1,12 +1,24 @@
-var fiss = ["N6","seth","duch","R1","froute","smidge","popo","kermit","popo","lgg","st","sergz"]
-var nb  = [1,2,3,4,5,6,7,8,9,10]
+var fiss = ["N6","seth","duch","R1","froute","smidge","popo","kermit","popo","lgg","st","sergz","diggy", "bobol"]
+var kermit = ['kermit']
 
 $(document).ready(function(){
 	$(".one").on('click', function () {
-        $(".one > .result").html(rand(fiss))
+        $(".one").html(rand(fiss))
     });
     $(".two").on('click', function () {
-        $(".two > .result").html(rand(nb))
+        $(".two").html(rand(fiss))
+    });
+    $(".three").on('click', function () {
+        $(".three").html(rand(fiss))
+    });
+    $(".four").on('click', function () {
+        $(".four").html(rand(fiss))
+    });
+    $(".five").on('click', function () {
+        $(".five").html(rand(fiss))
+    });
+    $(".six").on('click', function () {
+        $(".six").html(rand(kermit))
     });
 })
 
