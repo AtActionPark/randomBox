@@ -2,31 +2,28 @@ var fiss = ["N6","seth","duch","R1","froute","smidge","popo","kermit","popo","lg
 
 $(document).ready(function(){
 	$("#one").on('click', function () {
-        $("#one > div >  span").html(rand(fiss))
+        $("#one > span").html(rand(fiss))
+        $("#one").css("background-color", "white");
     });
     $("#two").on('click', function () {
-        $("#two > div >  span").html(rand(fiss))
+        $("#two > span").html(rand(fiss))
+        $("#two").css("background-color", "white");
     });
     $("#three").on('click', function () {
-        $("#three > div >  span").html(rand(fiss))
+        $("#three > span").html(rand(fiss))
+        $("#three").css("background-color", "white");
     });
     $("#four").on('click', function () {
-        $("#four > div >  span").html(rand(fiss))
+        $("#four > span").html(rand(fiss))
+        $("#four").css("background-color", "white");
     });
     $("#five").on('click', function () {
-        $("#five > div >  span").html(rand(fiss))
+        $("#five > span").html(rand(fiss))
+        $("#five").css("background-color", "white");
     });
     $("#six").on('click', function () {
-        $("#six > div >  span").html(rand(fiss))
-    });
-    $("#seven").on('click', function () {
-        $("#seven > div >  span").html(rand(fiss))
-    });
-    $("#eight").on('click', function () {
-        $("#eight > div >  span").html(rand(fiss))
-    });
-    $("#nine").on('click', function () {
-        $("#nine > div >  span").html(rand(fiss))
+        $("#six > span").html(rand(fiss))
+        $("#six").css("background-color", "white");
     });
 })
 
